@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Case Study 2 — Tee Time Booking & Partner Operations Platform</title>
+
+  <!-- Your existing CSS -->
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- Page-specific layout fix (prevents header overlap) -->
+  <style>
+    .case-header {
+      height: auto !important;
+      min-height: unset !important;
+      background: none !important;
+      background-attachment: initial !important;
+    }
+    .case-header .header__text {
+      position: static !important;
+      top: auto !important;
+      transform: none !important;
+      padding: 6rem 0 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header case-header" id="top">
+    <div class="row">
+      <nav class="nav">
+        <ul class="nav__items">
+          <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="#context">Context</a></li>
+          <li class="nav__item"><a class="nav__link" href="#lifecycle">Lifecycle</a></li>
+          <li class="nav__item"><a class="nav__link" href="#partners">Partner Portal</a></li>
+          <li class="nav__item"><a class="nav__link" href="#dashboards">Dashboards</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__text">
+        <p style="margin:0; font-size: var(--font-size-normal); color: var(--white-1);">Case Study 2</p>
+        <h1 class="heading-primary" style="margin-top: 1.5rem;">Tee Time Booking &amp; Partner Operations Platform</h1>
+
+        <p style="margin-top: 2rem; max-width: var(--container-normal-width);">
+          Focus: Lifecycle ownership, payments, external stakeholders, operational scale
+        </p>
+
+        <p style="margin-top: 1rem; max-width: var(--container-normal-width);">
+          <strong>Product Type:</strong> Internal + Partner-facing booking &amp; operations platform<br>
+          <strong>Users:</strong> Sales, Marketing, Operations, Finance, External Partners (Hotels &amp; Golf Courses)
+        </p>
+
+        <a class="link__text" href="index.html#work">Back to Portfolio <span>&rarr;</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Context -->
+  <section id="context">
+    <div class="row">
+      <h2>🧭 Context</h2>
+
+      <p>
+        As booking volumes grew across golf breaks, society golf, tours, holidays, and events, the business
+        required a unified platform to manage:
+      </p>
+
+      <ul class="work__list">
+        <li>Booking confirmation</li>
+        <li>Customer payments</li>
+        <li>Supplier settlements</li>
+        <li>Fulfilment communication</li>
+        <li>Revenue reporting</li>
+        <li>External partner visibility</li>
+      </ul>
+
+      <p>
+        This evolved from an internal booking tool into a multi-sided operational platform.
+      </p>
+
+      <a class="btn" href="#lifecycle">View Lifecycle Framing</a>
+    </div>
+  </section>
+
+  <!-- Lifecycle -->
+  <section id="lifecycle">
+    <div class="row">
+      <h2>🔄 End-to-End Lifecycle Framing</h2>
+
+      <p>The product was designed around a complete booking lifecycle:</p>
+      <ul class="work__list">
+        <li>Booking Created</li>
+        <li>Deposit Collected</li>
+        <li>Partner Visibility</li>
+        <li>Supplier Settlement</li>
+        <li>Confirmation &amp; Vouchers</li>
+        <li>KPI &amp; Revenue Reporting</li>
+      </ul>
+
+      <p>My responsibility was ensuring this lifecycle was:</p>
+      <ul class="work__list">
+        <li>Reliable</li>
+        <li>Transparent</li>
+        <li>Financially accurate</li>
+        <li>Scalable</li>
+      </ul>
+
+      <a class="btn" href="#internal">Internal Booking &amp; Sales Management</a>
+    </div>
+  </section>
+
+  <!-- Internal Booking -->
+  <section id="internal">
+    <div class="row">
+      <h2>🧩 Internal Booking &amp; Sales Management</h2>
+
+      <p>Sales and marketing teams could:</p>
+      <ul class="work__list">
+        <li>Create bookings across all product categories</li>
+        <li>Manage group details, dates, and itinerary components</li>
+        <li>Track booking status</li>
+        <li>Monitor payment progress</li>
+      </ul>
+
+      <p>
+        The system centralised operational workflows that were previously fragmented across emails and spreadsheets.
+      </p>
+
+      <a class="btn" href="#payments">Payments &amp; Financial Flows</a>
+    </div>
+  </section>
+
+  <!-- Payments -->
+  <section id="payments">
+    <div class="row">
+      <h2>💳 Payments &amp; Financial Flows</h2>
+
+      <p>A critical layer of this system was money movement.</p>
+
+      <p>The platform supported:</p>
+      <ul class="work__list">
+        <li>Customer deposit collection via payment API</li>
+        <li>Payment status tracking</li>
+        <li>Supplier and business partner settlements</li>
+        <li>Reduced manual reconciliation</li>
+      </ul>
+
+      <p><strong>Key Considerations</strong></p>
+      <ul class="work__list">
+        <li>Payment failures</li>
+        <li>Partial payments</li>
+        <li>Refunds &amp; cancellations</li>
+        <li>Financial traceability</li>
+      </ul>
+
+      <p>
+        This required collaboration with finance to ensure settlement logic aligned with contracts and reporting needs.
+      </p>
+
+      <a class="btn" href="#partners">External Partner Portal</a>
+    </div>
+  </section>
+
+  <!-- Partner Portal -->
+  <section id="partners">
+    <div class="row">
+      <h2>🏨 External Partner Portal (Hotel &amp; Golf Course Managers)</h2>
+
+      <p>As bookings scaled, external partners required visibility into:</p>
+      <ul class="work__list">
+        <li>Confirmed bookings</li>
+        <li>Dates, group sizes, and product types</li>
+        <li>Cancellations or amendments</li>
+        <li>Payment status</li>
+        <li>Historical booking volume</li>
+      </ul>
+
+      <h3>Problem</h3>
+      <p>Previously:</p>
+      <ul class="work__list">
+        <li>Information was shared via email</li>
+        <li>Confirmation via Email or Phone</li>
+        <li>Manual reconciliation was required</li>
+        <li>Budgeting and contract forecasting lacked transparency</li>
+      </ul>
+
+      <h3>Solution</h3>
+      <p>We introduced a secure Partner Portal allowing authorised hotel and golf course managers to:</p>
+      <ul class="work__list">
+        <li>View bookings generated by partner</li>
+        <li>Track updates and cancellations</li>
+        <li>Monitor payment and settlement status</li>
+        <li>Access historical booking data</li>
+      </ul>
+
+      <h3>Business Value</h3>
+      <p><strong>For partners:</strong></p>
+      <ul class="work__list">
+        <li>Improved marketing budgeting and capacity planning</li>
+        <li>Better contract alignment</li>
+        <li>Reduced communication friction</li>
+      </ul>
+
+      <p><strong>For internal teams:</strong></p>
+      <ul class="work__list">
+        <li>Fewer operational queries</li>
+        <li>Improved partner relationships</li>
+        <li>Stronger commercial trust</li>
+      </ul>
+
+      <p>
+        This transformed the product into a B2B collaboration platform, not just an internal system.
+      </p>
+
+      <a class="btn" href="#fulfilment">Fulfilment &amp; Communication Automation</a>
+    </div>
+  </section>
+
+  <!-- Fulfilment -->
+  <section id="fulfilment">
+    <div class="row">
+      <h2>📧 Fulfilment &amp; Communication Automation</h2>
+
+      <p>The platform automated:</p>
+      <ul class="work__list">
+        <li>Booking confirmation emails</li>
+        <li>Itineraries</li>
+        <li>Voucher generation</li>
+      </ul>
+
+      <p>
+        This reduced manual follow-up and ensured consistency in customer communications.
+      </p>
+
+      <a class="btn" href="#dashboards">Performance &amp; Revenue Dashboards</a>
+    </div>
+  </section>
+
+  <!-- Dashboards -->
+  <section id="dashboards">
+    <div class="row">
+      <h2>📊 Performance &amp; Revenue Dashboards</h2>
+
+      <p>The system provided visibility into:</p>
+
+      <h3>Marketing KPIs</h3>
+      <ul class="work__list">
+        <li>Lead sources</li>
+        <li>Campaign performance</li>
+      </ul>
+
+      <h3>Sales KPIs</h3>
+      <ul class="work__list">
+        <li>Bookings per product category</li>
+        <li>Conversion rates</li>
+      </ul>
+
+      <h3>Revenue KPIs</h3>
+      <ul class="work__list">
+        <li>Deposits collected</li>
+        <li>Outstanding balances</li>
+        <li>Total revenue</li>
+      </ul>
+
+      <p>
+        Leadership gained real-time visibility into performance, enabling data-driven decisions.
+      </p>
+
+      <a class="btn" href="#risks">Risks &amp; Trade-offs</a>
+    </div>
+  </section>
+
+  <!-- Risks & Delivery -->
+  <section id="risks">
+    <div class="row">
+      <h2>⚖️ Risks &amp; Trade-offs</h2>
+
+      <h3>Operational Risks</h3>
+      <ul class="work__list">
+        <li>Payment inconsistencies</li>
+        <li>Supplier settlement errors</li>
+        <li>Data inaccuracies</li>
+        <li>Cancellation policy misalignment</li>
+      </ul>
+
+      <h3>Trade-offs Made</h3>
+      <ul class="work__list">
+        <li>Prioritised deposit collection before full automation</li>
+        <li>Focused on operational stability before customer self-service</li>
+        <li>Introduced partner visibility in phases to manage data sensitivity</li>
+      </ul>
+
+      <h3>📦 Delivery Approach</h3>
+      <ul class="work__list">
+        <li>Agile / Scrum methodology</li>
+        <li>Risk-heavy flows (payments) prioritised first</li>
+        <li>Cross-functional workshops with finance, sales, marketing and operations</li>
+        <li>Iterative release of partner portal features</li>
+      </ul>
+
+      <a class="btn" href="#outcomes">Outcomes &amp; Impact</a>
+    </div>
+  </section>
+
+  <!-- Outcomes -->
+  <section id="outcomes">
+    <div class="row">
+      <h2>📈 Outcomes &amp; Impact</h2>
+
+      <ul class="work__list">
+        <li>Centralised booking and payment management</li>
+        <li>Reduced manual operational effort</li>
+        <li>Improved financial transparency</li>
+        <li>Strengthened external partner trust</li>
+        <li>Enabled scalable operational growth</li>
+      </ul>
+
+      <a class="btn btn--pink" href="index.html#work">Back to Work</a>
+      <a class="link__text" href="#top">Back to Top <span>&uarr;</span></a>
+    </div>
+  </section>
+
+</body>
+</html>
