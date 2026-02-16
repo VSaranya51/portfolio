@@ -1,20 +1,87 @@
-<section class="about" id="about">
-          <div class="row">
-            <h2>About Me</h2>
-            <div class="about__content">
-              <div class="about__text">
-                <!-- Replace the below paragraph with info about yourself -->
-                <p>
-                  I’m a Product Owner evolving into a Product Manager, with a strong technical foundation in backend development and IT project delivery. I specialize in turning business needs into structured product solutions — from discovery and requirement definition to backlog ownership and sprint delivery.
-    
-    I currently work on digital booking and sales platforms in the golf travel industry, where I collaborate closely with stakeholders and engineering teams to improve workflows, partner visibility, and operational efficiency. </br> My focus is not just shipping features, but ensuring every release delivers measurable value.
-    
-    I enjoy bridging the gap between business and technology, simplifying complex processes, and building products that scale. My goal is to grow into a product leadership role where I can combine strategy, delivery, and user impact.
-                </p>
-                
-              </div>
-    
-            
-            </div>
-          </div>
-    </section>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Saranya Velusamy</title>
+
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- Prevent hero overlap (same fix as case studies) -->
+  <style>
+    .case-header {
+      background: none !important;
+      height: auto !important;
+      min-height: unset !important;
+      background-attachment: initial !important;
+    }
+
+    .case-header .header__text {
+      position: static !important;
+      transform: none !important;
+      padding: 8rem 0 4rem 0 !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header case-header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#skills" class="nav__link">Skills</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__text">
+        <p style="margin:0; color: var(--white-1);">About Me</p>
+        <h1 class="heading-primary">Product Owner | Aspiring Product Manager</h1>
+        <p style="max-width: 70rem;">
+          Bridging business strategy and technical execution to deliver scalable digital products.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Content -->
+  <section class="about">
+    <div class="row">
+      <h2>My Journey</h2>
+
+      <div class="about__content">
+        <div class="about__text">
+
+          <p>
+            I’m a Product Owner evolving into a Product Manager, with a strong technical foundation in backend development and IT project delivery. I specialize in turning business needs into structured product solutions — from discovery and requirement definition to backlog ownership and sprint delivery.
+          </p>
+
+          <p>
+            I currently work on digital booking and sales platforms in the golf travel industry, where I collaborate closely with stakeholders and engineering teams to improve workflows, partner visibility, and operational efficiency. My focus is not just shipping features, but ensuring every release delivers measurable value.
+          </p>
+
+          <p>
+            I enjoy bridging the gap between business and technology, simplifying complex processes, and building products that scale. My goal is to grow into a product leadership role where I can combine strategy, delivery, and user impact.
+          </p>
+
+        </div>
+      </div>
+
+      <div style="margin-top: 6rem;">
+        <a class="btn btn--pink" href="index.html#work">View My Work</a>
+        <a class="link__text" href="index.html">Back to Home <span>&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
